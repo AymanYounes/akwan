@@ -270,7 +270,7 @@ Nav Bar
 
 .right-section{
 
-    position: fixed;
+    position: absolute;
     right: 73px;
     top: 50px;
     z-index: 200;
@@ -314,8 +314,9 @@ div#icon3 span {
 div#icon3 {
     width: 45px;
     height: 45px;
-    position: relative;
+    position: fixed;
     /*margin: 50px auto;*/
+    right: 70px;
     -webkit-transform: rotate(0deg);
     -moz-transform: rotate(0deg);
     -o-transform: rotate(0deg);
