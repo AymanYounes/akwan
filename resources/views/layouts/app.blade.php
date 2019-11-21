@@ -118,13 +118,37 @@
     <!-- preloader -->
 @include('layouts.preloader')
 
-@if (Route::current()->getName() == 'homePage')
-    @include('layouts.homeNav')
-@else
-    @include('layouts.navbar')
-@endif
+    <header>
+
+        <div class="left-section">
+
+            <img src="{{asset('images/logo.png')}}">
+
+        </div>
 
 
+        <div class="right-section">
+            <div class="lang">
+                <a href="{{route('lang',[trans('nav.langval')])}}" class="text-uppercase">{{trans('nav.langval')}}</a>
+            </div>
+
+
+
+            <div id="icon3" class="hamburger-menu" onclick="openNav()" >
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+@include('layouts.nav')
 
 <!-- Start main-content -->
     <div class="main-content">
@@ -148,23 +172,19 @@
 <!-- JS | Custom script for all pages -->
 <script src="js/custom.js"></script>
 <script>
-    /* Set the width of the side navigation to 250px */
-    function openNav() {
-        var $window = $(window);
-        var windowsize = $window.width();
-        if (windowsize > 1024) {
-            document.getElementById("mySidenav").style.width = "100%";
-        }else if (windowsize > 768 && windowsize <= 1024 ) {
-            document.getElementById("mySidenav").style.width = "350px";
-        }else{
-            document.getElementById("mySidenav").style.width = "300px";
-        }
-    }
 
-    /* Set the width of the side navigation to 0 */
-    function closeNav() {
-        document.getElementById("mySidenav").style.width = "0";
-    }
+
+    $(document).on('click','.hamburger-menu',function () {
+        if($(this).hasClass('nav-open')){
+            $('#fullNav').slideUp('slow');
+            $(this).removeClass('nav-open');
+        }else{
+            $('#fullNav').slideDown('slow');
+            $(this).addClass('nav-open');
+        }
+    });
+
+
 
     $(document).ready(function() {
         $("a[data-rel^='prettyPhoto']").prettyPhoto({

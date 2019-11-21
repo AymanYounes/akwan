@@ -484,9 +484,9 @@ Services
 #services .owl-prev{
     background: white;
     border-radius: 25px;
-    padding: 17px 23px;
-    left: -42px;
-    font-size: 22px;
+    padding: 8px 30px 8px 13px;
+    left: -48px;
+    font-size: 41px;
     color: #65CC2A;
 }
 
@@ -515,7 +515,7 @@ Services
 }
 
 #services .services-more-details span {
-    font-size: 20px;
+    font-size: 18px;
 }
 #services .item-header{
     position: absolute;

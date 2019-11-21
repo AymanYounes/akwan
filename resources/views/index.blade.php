@@ -25,14 +25,14 @@
                     <ul>
 
                         <!-- SLIDE 1 -->
-                        <li data-index="rs-1" data-transition="random" data-slotamount="7"  data-easein="default" data-easeout="default" data-masterspeed="1000"  data-thumb="images/slider/1.webp"  data-rotate="0"  data-fstransition="fade" data-fsmasterspeed="1500" data-fsslotamount="7" data-saveperformance="off"  data-title="Intro" data-description="">
+                        <li data-index="rs-1" data-transition="parallaxtoright" data-slotamount="7" data-delay="10000"  data-easein="default" data-easeout="default" data-masterspeed="1000"  data-thumb="images/slider/1.webp"  data-rotate="0"  data-fstransition="fade" data-fsmasterspeed="2500" data-fsslotamount="7" data-saveperformance="off"  data-title="Intro" data-description="">
                             <!-- MAIN IMAGE -->
                             <img src="images/slider/1.webp"  alt=""  data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-bgparallax="6" data-no-retina>
 
                         </li>
 
                         <!-- SLIDE 2 -->
-                        <li data-index="rs-2" data-transition="random" data-slotamount="7"  data-easein="default" data-easeout="default" data-masterspeed="1000"  data-thumb="images/slider/2.webp"  data-rotate="0"  data-fstransition="fade" data-fsmasterspeed="1500" data-fsslotamount="7" data-saveperformance="off"  data-title="Intro" data-description="">
+                        <li data-index="rs-2" data-transition="parallaxtoright" data-slotamount="7" data-delay="10000"  data-easein="default" data-easeout="default" data-masterspeed="1000"  data-thumb="images/slider/2.webp"  data-rotate="0"  data-fstransition="parallaxtoright" data-fsmasterspeed="2500" data-fsslotamount="7" data-saveperformance="off"  data-title="Intro" data-description="">
                             <!-- MAIN IMAGE -->
                             <img src="images/slider/2.webp"  alt=""  data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-bgparallax="6" data-no-retina>
 
@@ -75,7 +75,7 @@
                         {{trans('homePage.aboutAkwan')}}
                     </p>
                     <a href="{{url('/about')}}" class="more-details text-white">
-                        {{trans('homePage.moreDetails')}} &nbsp; <span class="ml-20 mr-20"><i class="fa fa-long-arrow-right"></i> </span>
+                        {{trans('homePage.moreDetails')}} &nbsp; <span class="ml-5 mr-5"><i class="fa fa-long-arrow-right"></i> </span>
                     </a>
                 </div>
             </div>
@@ -167,7 +167,7 @@
 {{--<div class="clearfix"></div>--}}
 
                 <a href="{{url('/about')}}" class="more-details theme-second-colored services-more-details">
-                    {{trans('homePage.moreDetails')}} &nbsp; <span class="ml-20 mr-20"><i class="fa fa-long-arrow-right"></i> </span>
+                    {{trans('homePage.moreDetails')}} &nbsp; <span class="ml-5 mr-5"><i class="fa fa-long-arrow-right"></i> </span>
                 </a>
 
             </div>
@@ -259,7 +259,7 @@
                 <h2 class="about-us-head-3 features-head-3 theme-colored font-playfair-boldItalic">text of the printing .</h2>
 
                 <a href="{{url('/about')}}" class="more-details text-black">
-                    {{trans('homePage.moreDetails')}} &nbsp; <span class="ml-20 mr-20"><i class="fa fa-long-arrow-right"></i> </span>
+                    {{trans('homePage.moreDetails')}} &nbsp; <span class="ml-5 mr-5"><i class="fa fa-long-arrow-right"></i> </span>
                 </a>
             </div>
 
@@ -279,7 +279,7 @@
                 </div>
                 <div class="col-sm-6">
                     <a href="{{url('/about')}}" class="more-details text-black pull-right text-white">
-                        View all projects &nbsp; <span class="ml-20 mr-20"><i class="fa fa-long-arrow-right"></i> </span>
+                        View all projects &nbsp; <span class="ml-5 mr-5"><i class="fa fa-long-arrow-right"></i> </span>
                     </a>
                 </div>
 
