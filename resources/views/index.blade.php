@@ -55,7 +55,7 @@
     <section id="about" class="pt-100 pb-100 background-dark">
         <div class="row">
 
-            <div class="col-lg-6 col-md-6 col-sm-12 about-img">
+            <div class="col-lg-6 col-md-6 col-sm-12 about-img hidden-xs">
                 <div class="about-img-wrapper">
                     <img src="{{asset('images/about.png')}}" class=" img-responsive">
                 </div>
@@ -330,6 +330,7 @@
     <section id="contact" class="divider parallax background-dark pb-xl-100 pb-lg-50 pb-xs-20">
         <div class="container contact-wrapper" data-bg-img="images/contact-bg.png">
             <div class="col-md-6 col-sm-12">
+                <h2 class="text-center theme-second-colored text-uppercase"> Contact Us</h2>
                 <form method="post" action="">
                     <div class="form-group">
                         <label for="name">Name</label>
@@ -348,7 +349,7 @@
                         <textarea name="message" id="message" class="form-control"></textarea>
                     </div>
                     <div class="form-group contact-btn-wrapper">
-                        <input type="submit" value="Send"  class="btn btn-success contact-btn text-uppercase font-merriweather-bold">
+                        <input type="submit" value="Send"  class="btn btn-success btn-second-theme-colored contact-btn text-uppercase font-merriweather-bold">
                     </div>
                 </form>
             </div>

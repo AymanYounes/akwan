@@ -419,8 +419,8 @@ div#icon3 {
 .about-img-wrapper{
     position: absolute;
     background: #0EA427;
-    width: 400px;
-    height: 500px;
+    width: 500px;
+    height: 630px;
     right: 30px;
     /*float: right;*/
     margin-right: 35px;
@@ -474,10 +474,11 @@ Services
 
 
 .services-carousel .item{
-    height: 700px;
+    height: auto;
 }
 .services-carousel .item img{
     /*height: 400px;*/
+    height: 100%;
 }
 
 #services .owl-prev{
@@ -775,12 +776,9 @@ footer section
         top: 54px;
         width: 170px;
     }
-    .about-img img{
+    .about-img-wrapper {
         width: 400px;
-    }
-    .about-img img:before{
-        height: 78%;
-        width: 360px;
+        height: 500px;
     }
     .about-us-head-1 {
         font-size: 26px;

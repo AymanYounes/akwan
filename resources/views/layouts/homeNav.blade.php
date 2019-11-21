@@ -9,7 +9,7 @@
 
     <div class="right-section">
         <div class="lang">
-            <a href="{{route('lang',[trans('nav.langval')])}}">Ar</a>
+            <a href="{{route('lang',[trans('nav.langval')])}}" class="text-uppercase">{{trans('nav.langval')}}</a>
         </div>
 
 

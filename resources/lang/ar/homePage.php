@@ -12,6 +12,28 @@ return [
 
     'moreDetails' => 'More Details',
 
+    //footer
+
+
+    'usefulLinks' => 'Useful Links',
+    'services' => 'Services',
+    'about' => 'About',
+    'us' => 'Us',
+    'projects' => 'Projects',
+    'contactUs' => 'Contact Us',
+    'newsLetterHead' => 'Join The Newsletter',
+    'newsLetterSlogan' => 'Lorem ipsum dolor sit amet audiam .',
+    'email' => 'Email...',
+
+
+
+
+
+
+
+
+
+
 //slider
     'contactBtn' => 'تواصل معنا',
     'offerBtn' => 'أحصل على عرض سعر',

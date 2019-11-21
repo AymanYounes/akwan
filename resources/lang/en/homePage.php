@@ -9,7 +9,7 @@ return [
             and complete research to build and develop brands. Through the provision of all software services and marketing 
             to customers with high quality, efficient and effective.',
 
-
+    'moreDetails' => 'More Details',
 
     //footer
 
@@ -27,7 +27,7 @@ return [
 
 
 //slider
-    'contactBtn' => 'Contact Us',
+
     'offerBtn' => 'Get offer price',
     'slider1Layer1' => 'Share With us your dreams',
     'slider1Layer2' => 'And we make it come true',
